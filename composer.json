@@ -1,0 +1,28 @@
+{
+    "name": "zxl/unit-larvel",
+    "description": "this is test unit",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "zxl5802316",
+            "email": "1024659300@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zxl\\Unit\\":"./src"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Zxl\\Unit\\Providers\\ZxlUnitServiceProvider"
+            ]    
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.8"
+    }
+}
